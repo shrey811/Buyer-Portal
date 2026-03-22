@@ -189,7 +189,11 @@ export const DashboardPage = () => {
                         </div>
                     ) : (
                         <>
-                            <FavouritesList favourites={favouritesQuery.data?.data ?? []} />
+                            <FavouritesList
+                                favourites={favouritesQuery.data?.data ?? []}
+                                isLoading={removeFavouriteMutation.isPending}
+                                onToggleFavourite={handleToggleFavourite}
+                            />
 
                             <PaginationControls
                                 page={favouritesPage}
