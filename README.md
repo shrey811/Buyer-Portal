@@ -121,8 +121,8 @@ npm run build
 ### 1. Clone the project
 
 ```bash
-git clone <your-repo-url>
-cd backend
+git clone
+
 ```
 
 ### 2. Install dependencies
