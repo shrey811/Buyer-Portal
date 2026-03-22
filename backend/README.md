@@ -7,8 +7,8 @@
 ### 1. Clone the project
 
 ```bash
-git clone <your-repo-url>
-cd backend
+git clone 
+
 ```
 
 ### 2. Install dependencies
@@ -22,14 +22,7 @@ npm install
 Create a `.env` file in the root:
 
 ```env
-PORT=5000
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/buyer_portal_db
-JWT_SECRET=your_secret_key
-JWT_EXPIRES_IN=1d
-
-SEED_SUPERADMIN_NAME=Super Admin
-SEED_SUPERADMIN_EMAIL=superadmin@admin.com
-SEED_SUPERADMIN_PASSWORD=superadmin123
+follow the example .env
 ```
 
 ---
