@@ -1,0 +1,6 @@
+export const APP_LIMITS = {
+    AUTH_WINDOW_MS: 15 * 60 * 1000,
+    AUTH_MAX_REQUESTS: 10,
+    MAX_PAGE_SIZE: 100,
+    DEFAULT_PAGE_SIZE: 10,
+} as const;
