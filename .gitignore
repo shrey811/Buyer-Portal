@@ -23,5 +23,5 @@ Thumbs.db
 # Logs
 *.log
 
-# Prisma (optional)
-backend/generated/
+# Prisma generated files
+backend/src/generated/
